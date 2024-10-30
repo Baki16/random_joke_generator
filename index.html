@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Joke Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random Joke Generator</h1>
+        <div id="categories" class="categories"></div>
+        <div class="joke-text" id="jokeText">Click the button to get a joke!</div>
+        <div class="loading" id="loading"></div>
+        <div class="button-container">
+            <button onclick="getJoke()">Get New Joke</button>
+            <button onclick="shareJoke()" class="share-btn">Share Joke</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
